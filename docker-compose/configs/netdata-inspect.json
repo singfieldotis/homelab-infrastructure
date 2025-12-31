@@ -1,0 +1,384 @@
+[
+    {
+        "Id": "a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de",
+        "Created": "2025-12-25T01:34:36.767638907Z",
+        "Path": "/usr/sbin/run.sh",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 40304,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-12-25T01:34:36.855485561Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-12-31T00:25:32.229911814Z",
+                        "End": "2025-12-31T00:25:32.286341685Z",
+                        "ExitCode": 0,
+                        "Output": "{\n    \"version\":\"v2.8.0-153-nightly\",\n    \"uid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n    \"hosts-available\":1,\n    \"mirrored_hosts\":[\"haven\"],\n    \"mirrored_hosts_status\":[{\n            \"hostname\":\"haven\",\n            \"hops\":0,\n            \"reachable\":true,\n            \"guid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n            \"node_id\":\"b81af076-893a-4cd0-bd56-2c52256244f7\",\n            \"claim_id\":\"633a4d48-d32a-460d-bda6-3a3527a94937\"\n        }],\n    \"alarms\":{\n        \"normal\":432,\n        \"warning\":0,\n        \"critical\":0\n    },\n    \"os_name\":\"Ubuntu\",\n    \"os_id\":\"ubuntu\",\n    \"os_id_like\":\"debian\",\n    \"os_version\":\"24.04.3 LTS (Noble Numbat)\",\n    \"os_version_id\":\"24.04\",\n    \"os_detection\":\"/host/etc/os-release\",\n    \"cores_total\":\"4\",\n    \"total_disk_space\":\"256060514304\",\n    \"cpu_freq\":\"2700000000\",\n    \"ram_total\":\"16520826880\",\n    \"container_os_name\":\"Debian GNU/Linux\",\n    \"container_os_id\":\"debian\",\n    \"container_os_id_like\":\"unknown\",\n    \"container_os_version\":\"13 (trixie)\",\n    \"container_os_version_id\":\"13\",\n    \"container_os_detection\":\"/etc/os-release\",\n    \"is_k8s_node\":\"false\",\n    \"kernel_name\":\"Linux\",\n    \"kernel_version\":\"6.8.0-90-generic\",\n    \"architecture\":\"x86_64\",\n    \"virtualization\":\"none\",\n    \"virt_detection\":\"systemd-detect-virt\",\n    \"container\":\"docker\",\n    \"container_detection\":\"systemd-detect-virt\",\n    \"cloud_provider_type\":\"unknown\",\n    \"cloud_instance_type\":\"unknown\",\n    \"cloud_instance_region\":\"unknown\",\n    \"host_labels\":{\n        \"_os_name\":\"Ubuntu\",\n        \"_cloud_instance_region\":\"unknown\",\n        \"_cloud_provider_type\":\"unknown\",\n        \"_net_default_iface_ip\":\"172.20.0.2\",\n        \"_net_default_iface_detection\":\"procfs\",\n        \"_system_cores\":\"4\",\n        \"_kernel_version\":\"6.8.0-90-generic\",\n        \"_system_cpu_freq\":\"2700000000\",\n        \"_cloud_instance_type\":\"unknown\",\n        \"_os_version\":\"24.04.3 LTS (Noble Numbat)\",\n        \"_system_cpu_model\":\"Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz\",\n        \"_is_k8s_node\":\"false\",\n        \"_prebuilt_arch\":\"x86_64\",\n        \"_net_default_iface\":\"eth0\",\n        \"_install_type\":\"oci\",\n        \"_system_ram_total\":\"16520826880\",\n        \"_system_disk_space\":\"256060514304\",\n        \"_architecture\":\"x86_64\",\n        \"_virtualization\":\"none\",\n        \"_container\":\"docker\",\n        \"_container_detection\":\"systemd-detect-virt\",\n        \"_aclk_available\":\"true\",\n        \"_mqtt_version\":\"5\",\n        \"_aclk_proxy\":\"none\",\n        \"_aclk_ng_new_cloud_protocol\":\"true\",\n        \"_virt_detection\":\"systemd-detect-virt\",\n        \"_is_ephemeral\":\"false\",\n        \"_has_unstable_connection\":\"false\",\n        \"_is_parent\":\"false\",\n        \"_hostname\":\"haven\",\n        \"_os\":\"linux\",\n        \"_timezone\":\"Etc/UTC\",\n        \"_abbrev_timezone\":\"UTC\"\n    },\n    \"functions\":{\n        \"netdata-streaming\":{\n            \"help\":\"Shows real-time streaming connections and replication status between parent and child nodes, including connection health, data flow metrics, and ML status.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-api-calls\":{\n            \"help\":\"Monitors active and recent Netdata API requests with transaction details, duration, and response sizes.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-metrics-cardinality\":{\n            \"help\":\"Displays metrics cardinality statistics showing distribution of instances and time-series across contexts and nodes. To change grouping, append parameter to function name: 'netdata-metrics-cardinality' (default, group by context) or 'netdata-metrics-cardinality group:by-node' (group by node).\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"anonymou..."
+                    },
+                    {
+                        "Start": "2025-12-31T00:26:32.287027433Z",
+                        "End": "2025-12-31T00:26:32.356125651Z",
+                        "ExitCode": 0,
+                        "Output": "{\n    \"version\":\"v2.8.0-153-nightly\",\n    \"uid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n    \"hosts-available\":1,\n    \"mirrored_hosts\":[\"haven\"],\n    \"mirrored_hosts_status\":[{\n            \"hostname\":\"haven\",\n            \"hops\":0,\n            \"reachable\":true,\n            \"guid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n            \"node_id\":\"b81af076-893a-4cd0-bd56-2c52256244f7\",\n            \"claim_id\":\"633a4d48-d32a-460d-bda6-3a3527a94937\"\n        }],\n    \"alarms\":{\n        \"normal\":432,\n        \"warning\":0,\n        \"critical\":0\n    },\n    \"os_name\":\"Ubuntu\",\n    \"os_id\":\"ubuntu\",\n    \"os_id_like\":\"debian\",\n    \"os_version\":\"24.04.3 LTS (Noble Numbat)\",\n    \"os_version_id\":\"24.04\",\n    \"os_detection\":\"/host/etc/os-release\",\n    \"cores_total\":\"4\",\n    \"total_disk_space\":\"256060514304\",\n    \"cpu_freq\":\"2700000000\",\n    \"ram_total\":\"16520826880\",\n    \"container_os_name\":\"Debian GNU/Linux\",\n    \"container_os_id\":\"debian\",\n    \"container_os_id_like\":\"unknown\",\n    \"container_os_version\":\"13 (trixie)\",\n    \"container_os_version_id\":\"13\",\n    \"container_os_detection\":\"/etc/os-release\",\n    \"is_k8s_node\":\"false\",\n    \"kernel_name\":\"Linux\",\n    \"kernel_version\":\"6.8.0-90-generic\",\n    \"architecture\":\"x86_64\",\n    \"virtualization\":\"none\",\n    \"virt_detection\":\"systemd-detect-virt\",\n    \"container\":\"docker\",\n    \"container_detection\":\"systemd-detect-virt\",\n    \"cloud_provider_type\":\"unknown\",\n    \"cloud_instance_type\":\"unknown\",\n    \"cloud_instance_region\":\"unknown\",\n    \"host_labels\":{\n        \"_os_name\":\"Ubuntu\",\n        \"_cloud_instance_region\":\"unknown\",\n        \"_cloud_provider_type\":\"unknown\",\n        \"_net_default_iface_ip\":\"172.20.0.2\",\n        \"_net_default_iface_detection\":\"procfs\",\n        \"_system_cores\":\"4\",\n        \"_kernel_version\":\"6.8.0-90-generic\",\n        \"_system_cpu_freq\":\"2700000000\",\n        \"_cloud_instance_type\":\"unknown\",\n        \"_os_version\":\"24.04.3 LTS (Noble Numbat)\",\n        \"_system_cpu_model\":\"Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz\",\n        \"_is_k8s_node\":\"false\",\n        \"_prebuilt_arch\":\"x86_64\",\n        \"_net_default_iface\":\"eth0\",\n        \"_install_type\":\"oci\",\n        \"_system_ram_total\":\"16520826880\",\n        \"_system_disk_space\":\"256060514304\",\n        \"_architecture\":\"x86_64\",\n        \"_virtualization\":\"none\",\n        \"_container\":\"docker\",\n        \"_container_detection\":\"systemd-detect-virt\",\n        \"_aclk_available\":\"true\",\n        \"_mqtt_version\":\"5\",\n        \"_aclk_proxy\":\"none\",\n        \"_aclk_ng_new_cloud_protocol\":\"true\",\n        \"_virt_detection\":\"systemd-detect-virt\",\n        \"_is_ephemeral\":\"false\",\n        \"_has_unstable_connection\":\"false\",\n        \"_is_parent\":\"false\",\n        \"_hostname\":\"haven\",\n        \"_os\":\"linux\",\n        \"_timezone\":\"Etc/UTC\",\n        \"_abbrev_timezone\":\"UTC\"\n    },\n    \"functions\":{\n        \"netdata-streaming\":{\n            \"help\":\"Shows real-time streaming connections and replication status between parent and child nodes, including connection health, data flow metrics, and ML status.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-api-calls\":{\n            \"help\":\"Monitors active and recent Netdata API requests with transaction details, duration, and response sizes.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-metrics-cardinality\":{\n            \"help\":\"Displays metrics cardinality statistics showing distribution of instances and time-series across contexts and nodes. To change grouping, append parameter to function name: 'netdata-metrics-cardinality' (default, group by context) or 'netdata-metrics-cardinality group:by-node' (group by node).\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"anonymou..."
+                    },
+                    {
+                        "Start": "2025-12-31T00:27:32.357499817Z",
+                        "End": "2025-12-31T00:27:32.420403492Z",
+                        "ExitCode": 0,
+                        "Output": "{\n    \"version\":\"v2.8.0-153-nightly\",\n    \"uid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n    \"hosts-available\":1,\n    \"mirrored_hosts\":[\"haven\"],\n    \"mirrored_hosts_status\":[{\n            \"hostname\":\"haven\",\n            \"hops\":0,\n            \"reachable\":true,\n            \"guid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n            \"node_id\":\"b81af076-893a-4cd0-bd56-2c52256244f7\",\n            \"claim_id\":\"633a4d48-d32a-460d-bda6-3a3527a94937\"\n        }],\n    \"alarms\":{\n        \"normal\":432,\n        \"warning\":0,\n        \"critical\":0\n    },\n    \"os_name\":\"Ubuntu\",\n    \"os_id\":\"ubuntu\",\n    \"os_id_like\":\"debian\",\n    \"os_version\":\"24.04.3 LTS (Noble Numbat)\",\n    \"os_version_id\":\"24.04\",\n    \"os_detection\":\"/host/etc/os-release\",\n    \"cores_total\":\"4\",\n    \"total_disk_space\":\"256060514304\",\n    \"cpu_freq\":\"2700000000\",\n    \"ram_total\":\"16520826880\",\n    \"container_os_name\":\"Debian GNU/Linux\",\n    \"container_os_id\":\"debian\",\n    \"container_os_id_like\":\"unknown\",\n    \"container_os_version\":\"13 (trixie)\",\n    \"container_os_version_id\":\"13\",\n    \"container_os_detection\":\"/etc/os-release\",\n    \"is_k8s_node\":\"false\",\n    \"kernel_name\":\"Linux\",\n    \"kernel_version\":\"6.8.0-90-generic\",\n    \"architecture\":\"x86_64\",\n    \"virtualization\":\"none\",\n    \"virt_detection\":\"systemd-detect-virt\",\n    \"container\":\"docker\",\n    \"container_detection\":\"systemd-detect-virt\",\n    \"cloud_provider_type\":\"unknown\",\n    \"cloud_instance_type\":\"unknown\",\n    \"cloud_instance_region\":\"unknown\",\n    \"host_labels\":{\n        \"_os_name\":\"Ubuntu\",\n        \"_cloud_instance_region\":\"unknown\",\n        \"_cloud_provider_type\":\"unknown\",\n        \"_net_default_iface_ip\":\"172.20.0.2\",\n        \"_net_default_iface_detection\":\"procfs\",\n        \"_system_cores\":\"4\",\n        \"_kernel_version\":\"6.8.0-90-generic\",\n        \"_system_cpu_freq\":\"2700000000\",\n        \"_cloud_instance_type\":\"unknown\",\n        \"_os_version\":\"24.04.3 LTS (Noble Numbat)\",\n        \"_system_cpu_model\":\"Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz\",\n        \"_is_k8s_node\":\"false\",\n        \"_prebuilt_arch\":\"x86_64\",\n        \"_net_default_iface\":\"eth0\",\n        \"_install_type\":\"oci\",\n        \"_system_ram_total\":\"16520826880\",\n        \"_system_disk_space\":\"256060514304\",\n        \"_architecture\":\"x86_64\",\n        \"_virtualization\":\"none\",\n        \"_container\":\"docker\",\n        \"_container_detection\":\"systemd-detect-virt\",\n        \"_aclk_available\":\"true\",\n        \"_mqtt_version\":\"5\",\n        \"_aclk_proxy\":\"none\",\n        \"_aclk_ng_new_cloud_protocol\":\"true\",\n        \"_virt_detection\":\"systemd-detect-virt\",\n        \"_is_ephemeral\":\"false\",\n        \"_has_unstable_connection\":\"false\",\n        \"_is_parent\":\"false\",\n        \"_hostname\":\"haven\",\n        \"_os\":\"linux\",\n        \"_timezone\":\"Etc/UTC\",\n        \"_abbrev_timezone\":\"UTC\"\n    },\n    \"functions\":{\n        \"netdata-streaming\":{\n            \"help\":\"Shows real-time streaming connections and replication status between parent and child nodes, including connection health, data flow metrics, and ML status.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-api-calls\":{\n            \"help\":\"Monitors active and recent Netdata API requests with transaction details, duration, and response sizes.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-metrics-cardinality\":{\n            \"help\":\"Displays metrics cardinality statistics showing distribution of instances and time-series across contexts and nodes. To change grouping, append parameter to function name: 'netdata-metrics-cardinality' (default, group by context) or 'netdata-metrics-cardinality group:by-node' (group by node).\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"anonymou..."
+                    },
+                    {
+                        "Start": "2025-12-31T00:28:32.422051515Z",
+                        "End": "2025-12-31T00:28:32.486343396Z",
+                        "ExitCode": 0,
+                        "Output": "{\n    \"version\":\"v2.8.0-153-nightly\",\n    \"uid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n    \"hosts-available\":1,\n    \"mirrored_hosts\":[\"haven\"],\n    \"mirrored_hosts_status\":[{\n            \"hostname\":\"haven\",\n            \"hops\":0,\n            \"reachable\":true,\n            \"guid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n            \"node_id\":\"b81af076-893a-4cd0-bd56-2c52256244f7\",\n            \"claim_id\":\"633a4d48-d32a-460d-bda6-3a3527a94937\"\n        }],\n    \"alarms\":{\n        \"normal\":432,\n        \"warning\":0,\n        \"critical\":0\n    },\n    \"os_name\":\"Ubuntu\",\n    \"os_id\":\"ubuntu\",\n    \"os_id_like\":\"debian\",\n    \"os_version\":\"24.04.3 LTS (Noble Numbat)\",\n    \"os_version_id\":\"24.04\",\n    \"os_detection\":\"/host/etc/os-release\",\n    \"cores_total\":\"4\",\n    \"total_disk_space\":\"256060514304\",\n    \"cpu_freq\":\"2700000000\",\n    \"ram_total\":\"16520826880\",\n    \"container_os_name\":\"Debian GNU/Linux\",\n    \"container_os_id\":\"debian\",\n    \"container_os_id_like\":\"unknown\",\n    \"container_os_version\":\"13 (trixie)\",\n    \"container_os_version_id\":\"13\",\n    \"container_os_detection\":\"/etc/os-release\",\n    \"is_k8s_node\":\"false\",\n    \"kernel_name\":\"Linux\",\n    \"kernel_version\":\"6.8.0-90-generic\",\n    \"architecture\":\"x86_64\",\n    \"virtualization\":\"none\",\n    \"virt_detection\":\"systemd-detect-virt\",\n    \"container\":\"docker\",\n    \"container_detection\":\"systemd-detect-virt\",\n    \"cloud_provider_type\":\"unknown\",\n    \"cloud_instance_type\":\"unknown\",\n    \"cloud_instance_region\":\"unknown\",\n    \"host_labels\":{\n        \"_os_name\":\"Ubuntu\",\n        \"_cloud_instance_region\":\"unknown\",\n        \"_cloud_provider_type\":\"unknown\",\n        \"_net_default_iface_ip\":\"172.20.0.2\",\n        \"_net_default_iface_detection\":\"procfs\",\n        \"_system_cores\":\"4\",\n        \"_kernel_version\":\"6.8.0-90-generic\",\n        \"_system_cpu_freq\":\"2700000000\",\n        \"_cloud_instance_type\":\"unknown\",\n        \"_os_version\":\"24.04.3 LTS (Noble Numbat)\",\n        \"_system_cpu_model\":\"Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz\",\n        \"_is_k8s_node\":\"false\",\n        \"_prebuilt_arch\":\"x86_64\",\n        \"_net_default_iface\":\"eth0\",\n        \"_install_type\":\"oci\",\n        \"_system_ram_total\":\"16520826880\",\n        \"_system_disk_space\":\"256060514304\",\n        \"_architecture\":\"x86_64\",\n        \"_virtualization\":\"none\",\n        \"_container\":\"docker\",\n        \"_container_detection\":\"systemd-detect-virt\",\n        \"_aclk_available\":\"true\",\n        \"_mqtt_version\":\"5\",\n        \"_aclk_proxy\":\"none\",\n        \"_aclk_ng_new_cloud_protocol\":\"true\",\n        \"_virt_detection\":\"systemd-detect-virt\",\n        \"_is_ephemeral\":\"false\",\n        \"_has_unstable_connection\":\"false\",\n        \"_is_parent\":\"false\",\n        \"_hostname\":\"haven\",\n        \"_os\":\"linux\",\n        \"_timezone\":\"Etc/UTC\",\n        \"_abbrev_timezone\":\"UTC\"\n    },\n    \"functions\":{\n        \"netdata-streaming\":{\n            \"help\":\"Shows real-time streaming connections and replication status between parent and child nodes, including connection health, data flow metrics, and ML status.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-api-calls\":{\n            \"help\":\"Monitors active and recent Netdata API requests with transaction details, duration, and response sizes.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-metrics-cardinality\":{\n            \"help\":\"Displays metrics cardinality statistics showing distribution of instances and time-series across contexts and nodes. To change grouping, append parameter to function name: 'netdata-metrics-cardinality' (default, group by context) or 'netdata-metrics-cardinality group:by-node' (group by node).\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"anonymou..."
+                    },
+                    {
+                        "Start": "2025-12-31T00:29:32.48783521Z",
+                        "End": "2025-12-31T00:29:32.542694304Z",
+                        "ExitCode": 0,
+                        "Output": "{\n    \"version\":\"v2.8.0-153-nightly\",\n    \"uid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n    \"hosts-available\":1,\n    \"mirrored_hosts\":[\"haven\"],\n    \"mirrored_hosts_status\":[{\n            \"hostname\":\"haven\",\n            \"hops\":0,\n            \"reachable\":true,\n            \"guid\":\"01de92a3-ee1e-4cfd-9754-d0bd685dc7cc\",\n            \"node_id\":\"b81af076-893a-4cd0-bd56-2c52256244f7\",\n            \"claim_id\":\"633a4d48-d32a-460d-bda6-3a3527a94937\"\n        }],\n    \"alarms\":{\n        \"normal\":432,\n        \"warning\":0,\n        \"critical\":0\n    },\n    \"os_name\":\"Ubuntu\",\n    \"os_id\":\"ubuntu\",\n    \"os_id_like\":\"debian\",\n    \"os_version\":\"24.04.3 LTS (Noble Numbat)\",\n    \"os_version_id\":\"24.04\",\n    \"os_detection\":\"/host/etc/os-release\",\n    \"cores_total\":\"4\",\n    \"total_disk_space\":\"256060514304\",\n    \"cpu_freq\":\"2700000000\",\n    \"ram_total\":\"16520826880\",\n    \"container_os_name\":\"Debian GNU/Linux\",\n    \"container_os_id\":\"debian\",\n    \"container_os_id_like\":\"unknown\",\n    \"container_os_version\":\"13 (trixie)\",\n    \"container_os_version_id\":\"13\",\n    \"container_os_detection\":\"/etc/os-release\",\n    \"is_k8s_node\":\"false\",\n    \"kernel_name\":\"Linux\",\n    \"kernel_version\":\"6.8.0-90-generic\",\n    \"architecture\":\"x86_64\",\n    \"virtualization\":\"none\",\n    \"virt_detection\":\"systemd-detect-virt\",\n    \"container\":\"docker\",\n    \"container_detection\":\"systemd-detect-virt\",\n    \"cloud_provider_type\":\"unknown\",\n    \"cloud_instance_type\":\"unknown\",\n    \"cloud_instance_region\":\"unknown\",\n    \"host_labels\":{\n        \"_os_name\":\"Ubuntu\",\n        \"_cloud_instance_region\":\"unknown\",\n        \"_cloud_provider_type\":\"unknown\",\n        \"_net_default_iface_ip\":\"172.20.0.2\",\n        \"_net_default_iface_detection\":\"procfs\",\n        \"_system_cores\":\"4\",\n        \"_kernel_version\":\"6.8.0-90-generic\",\n        \"_system_cpu_freq\":\"2700000000\",\n        \"_cloud_instance_type\":\"unknown\",\n        \"_os_version\":\"24.04.3 LTS (Noble Numbat)\",\n        \"_system_cpu_model\":\"Intel(R) Core(TM) i5-7500T CPU @ 2.70GHz\",\n        \"_is_k8s_node\":\"false\",\n        \"_prebuilt_arch\":\"x86_64\",\n        \"_net_default_iface\":\"eth0\",\n        \"_install_type\":\"oci\",\n        \"_system_ram_total\":\"16520826880\",\n        \"_system_disk_space\":\"256060514304\",\n        \"_architecture\":\"x86_64\",\n        \"_virtualization\":\"none\",\n        \"_container\":\"docker\",\n        \"_container_detection\":\"systemd-detect-virt\",\n        \"_aclk_available\":\"true\",\n        \"_mqtt_version\":\"5\",\n        \"_aclk_proxy\":\"none\",\n        \"_aclk_ng_new_cloud_protocol\":\"true\",\n        \"_virt_detection\":\"systemd-detect-virt\",\n        \"_is_ephemeral\":\"false\",\n        \"_has_unstable_connection\":\"false\",\n        \"_is_parent\":\"false\",\n        \"_hostname\":\"haven\",\n        \"_os\":\"linux\",\n        \"_timezone\":\"Etc/UTC\",\n        \"_abbrev_timezone\":\"UTC\"\n    },\n    \"functions\":{\n        \"netdata-streaming\":{\n            \"help\":\"Shows real-time streaming connections and replication status between parent and child nodes, including connection health, data flow metrics, and ML status.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-api-calls\":{\n            \"help\":\"Monitors active and recent Netdata API requests with transaction details, duration, and response sizes.\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"signed-in\",\"same-space\",\"sensitive-data\"],\n            \"priority\":101\n        },\n        \"netdata-metrics-cardinality\":{\n            \"help\":\"Displays metrics cardinality statistics showing distribution of instances and time-series across contexts and nodes. To change grouping, append parameter to function name: 'netdata-metrics-cardinality' (default, group by context) or 'netdata-metrics-cardinality group:by-node' (group by node).\",\n            \"timeout\":10,\n            \"version\":0,\n            \"options\":[\"GLOBAL\"],\n            \"tags\":\"top\",\n            \"access\":[\"anonymou..."
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:67125584382a6b89c35a59e3ccf4bb5aee7578cb51296b2f0f3b5b49f782fa90",
+        "ResolvConfPath": "/var/lib/docker/containers/a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de/hostname",
+        "HostsPath": "/var/lib/docker/containers/a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de/hosts",
+        "LogPath": "/var/lib/docker/containers/a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de/a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de-json.log",
+        "Name": "/netdata",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "unconfined",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/etc/group:/host/etc/group:ro",
+                "/proc:/host/proc:ro",
+                "/sys:/host/sys:ro",
+                "/var/run/docker.sock:/var/run/docker.sock:ro",
+                "netdata_netdataconfig:/etc/netdata:rw",
+                "netdata_netdatalib:/var/lib/netdata:rw",
+                "netdata_netdatacache:/var/cache/netdata:rw",
+                "/etc/passwd:/host/etc/passwd:ro",
+                "/etc/os-release:/host/etc/os-release:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "netdata_default",
+            "PortBindings": {
+                "19999/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "19999"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": [
+                "CAP_SYS_ADMIN",
+                "CAP_SYS_PTRACE"
+            ],
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": [
+                "apparmor:unconfined"
+            ],
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "a30c3baea507fc9272127d359b60a965a6aaaaf3313617948b161097f575e4de",
+                "LowerDir": "/var/lib/docker/overlay2/9df7ed45b34c2191a0cb4ae9837a8bad29d7b802aa08fb8094206da2e2879551-init/diff:/var/lib/docker/overlay2/bc6574e11557f611b2308d7dda329ad09daf33849b562103815ace36d50e444b/diff:/var/lib/docker/overlay2/e5e208b84b79961e6aea1ddd9c5d2915f54a213663d0c9a2d0768f8720a211ec/diff:/var/lib/docker/overlay2/1146d1c7640d93cf7f0f304480ed975770bef56afc799d5ae7ecc74aa6a476ae/diff:/var/lib/docker/overlay2/4aefce078328c64ae1c558aece1fd37824cf7f98ac08ecfc1fff6753c6599eff/diff:/var/lib/docker/overlay2/7be66d093c658695ffd049e266342349cff3b1b653a7fbd19c64d8eaa88dc527/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9df7ed45b34c2191a0cb4ae9837a8bad29d7b802aa08fb8094206da2e2879551/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9df7ed45b34c2191a0cb4ae9837a8bad29d7b802aa08fb8094206da2e2879551/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9df7ed45b34c2191a0cb4ae9837a8bad29d7b802aa08fb8094206da2e2879551/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/etc/group",
+                "Destination": "/host/etc/group",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "volume",
+                "Name": "netdata_netdataconfig",
+                "Source": "/var/lib/docker/volumes/netdata_netdataconfig/_data",
+                "Destination": "/etc/netdata",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "netdata_netdatalib",
+                "Source": "/var/lib/docker/volumes/netdata_netdatalib/_data",
+                "Destination": "/var/lib/netdata",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "netdata_netdatacache",
+                "Source": "/var/lib/docker/volumes/netdata_netdatacache/_data",
+                "Destination": "/var/cache/netdata",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/etc/passwd",
+                "Destination": "/host/etc/passwd",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/etc/os-release",
+                "Destination": "/host/etc/os-release",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/proc",
+                "Destination": "/host/proc",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/sys",
+                "Destination": "/host/sys",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "haven",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "19999/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "NETDATA_CLAIM_URL=https://app.netdata.cloud",
+                "NETDATA_CLAIM_TOKEN=",
+                "NETDATA_CLAIM_ROOMS=",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "DEBIAN_FRONTEND=noninteractive",
+                "NETDATA_OFFICIAL_IMAGE=true",
+                "DOCKER_GRP=netdata",
+                "DOCKER_USR=netdata",
+                "NETDATA_LISTENER_PORT=19999",
+                "NETDATA_EXTRA_DEB_PACKAGES="
+            ],
+            "Cmd": null,
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "/usr/sbin/health.sh"
+                ],
+                "Interval": 60000000000,
+                "Timeout": 10000000000,
+                "Retries": 3
+            },
+            "Image": "netdata/netdata:latest",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/usr/sbin/run.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "36c80da809b4afa7bdfbd87beb17dca8ed9544add71465499bf88852a6247007",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:67125584382a6b89c35a59e3ccf4bb5aee7578cb51296b2f0f3b5b49f782fa90",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "netdata",
+                "com.docker.compose.project.config_files": "/home/otis/docker/netdata/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/otis/docker/netdata",
+                "com.docker.compose.service": "netdata",
+                "com.docker.compose.version": "5.0.0",
+                "org.opencontainers.image.authors": "Netdatabot <bot@netdata.cloud>",
+                "org.opencontainers.image.created": "2025-12-23T00:16:30Z",
+                "org.opencontainers.image.description": "Official Netdata Agent Docker Image",
+                "org.opencontainers.image.documentation": "https://learn.netdata.cloud",
+                "org.opencontainers.image.source": "https://github.com/netdata/netdata",
+                "org.opencontainers.image.title": "Netdata Agent",
+                "org.opencontainers.image.url": "https://netdata.cloud",
+                "org.opencontainers.image.vendor": "Netdata Inc.",
+                "org.opencontainers.image.version": "nightly"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "bb2e37b1165f1e23197636596ab2d7170ff7d9c0f9871e9c08289cf5a2047c4b",
+            "SandboxKey": "/var/run/docker/netns/bb2e37b1165f",
+            "Ports": {
+                "19999/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "19999"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "19999"
+                    }
+                ]
+            },
+            "Networks": {
+                "netdata_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "netdata",
+                        "netdata"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "90a803d27aca47550212bc7554f2ec56db1635e3ab8a348701d2b90f04cd5e1b",
+                    "EndpointID": "e940a9b25351ae0bba10c817eac2a6818f8dda23848ce0b8b05c5df512eba6c5",
+                    "Gateway": "172.20.0.1",
+                    "IPAddress": "172.20.0.2",
+                    "MacAddress": "6a:4a:fe:b6:7c:be",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "netdata",
+                        "a30c3baea507",
+                        "haven"
+                    ]
+                }
+            }
+        }
+    }
+]

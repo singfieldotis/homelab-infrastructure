@@ -1,0 +1,234 @@
+[
+    {
+        "Id": "75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd",
+        "Created": "2025-12-25T00:17:09.512973768Z",
+        "Path": "/watchtower",
+        "Args": [],
+        "State": {
+            "Status": "restarting",
+            "Running": true,
+            "Paused": false,
+            "Restarting": true,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 0,
+            "ExitCode": 1,
+            "Error": "",
+            "StartedAt": "2025-12-31T00:29:36.838796574Z",
+            "FinishedAt": "2025-12-31T00:29:38.071425583Z",
+            "Health": {
+                "Status": "unhealthy",
+                "FailingStreak": 0,
+                "Log": []
+            }
+        },
+        "Image": "sha256:e7dd50d07b86c380dd53caeb7778da052d1a8fc2c606644a419afa35e9f5691e",
+        "ResolvConfPath": "/var/lib/docker/containers/75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd/hostname",
+        "HostsPath": "/var/lib/docker/containers/75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd/hosts",
+        "LogPath": "/var/lib/docker/containers/75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd/75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd-json.log",
+        "Name": "/watchtower",
+        "RestartCount": 8490,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/var/run/docker.sock:/var/run/docker.sock:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "core_default",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "75504679c82e001afd3d314b0831e937cd992ed9f159f8193f491d937778bfdd",
+                "LowerDir": "/var/lib/docker/overlay2/ab4e39b5a2fc9103c6d35e9c940f957dddba0e9d2fc70f78249024f5e01bb950-init/diff:/var/lib/docker/overlay2/14789f8f70d8f57a703f8327381b13124b15ef879f95e6d48cf41579931d91dd/diff:/var/lib/docker/overlay2/06a47709281901fedcfca84b7e61f29569d5004cd7c07ba1080d709d650bfe3b/diff:/var/lib/docker/overlay2/f85123090a2d9e2c51c174656ef8fafb99130943ffab647e6511508bdba35fa6/diff",
+                "MergedDir": "/var/lib/docker/overlay2/ab4e39b5a2fc9103c6d35e9c940f957dddba0e9d2fc70f78249024f5e01bb950/merged",
+                "UpperDir": "/var/lib/docker/overlay2/ab4e39b5a2fc9103c6d35e9c940f957dddba0e9d2fc70f78249024f5e01bb950/diff",
+                "WorkDir": "/var/lib/docker/overlay2/ab4e39b5a2fc9103c6d35e9c940f957dddba0e9d2fc70f78249024f5e01bb950/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "75504679c82e",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8080/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "WATCHTOWER_CLEANUP=true",
+                "WATCHTOWER_SCHEDULE=0 0 4 * * *",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+            ],
+            "Cmd": null,
+            "Healthcheck": {
+                "Test": [
+                    "CMD",
+                    "/watchtower",
+                    "--health-check"
+                ]
+            },
+            "Image": "containrrr/watchtower:latest",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/watchtower"
+            ],
+            "Labels": {
+                "com.centurylinklabs.watchtower": "true",
+                "com.docker.compose.config-hash": "da91ba308605c6abe1f13c3cef8aaf29f6e47c0900ad4db63078cba43e50033f",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:e7dd50d07b86c380dd53caeb7778da052d1a8fc2c606644a419afa35e9f5691e",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "core",
+                "com.docker.compose.project.config_files": "/home/otis/docker/core/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/otis/docker/core",
+                "com.docker.compose.service": "watchtower",
+                "com.docker.compose.version": "5.0.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "",
+            "SandboxKey": "",
+            "Ports": {},
+            "Networks": {
+                "core_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "watchtower",
+                        "watchtower"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "e34691a8ed70fffa4975d2f700b4135e43c6310006a4b64edbe128dab843f9b8",
+                    "EndpointID": "",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "watchtower",
+                        "75504679c82e"
+                    ]
+                }
+            }
+        }
+    }
+]

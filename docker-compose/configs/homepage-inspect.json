@@ -1,0 +1,303 @@
+[
+    {
+        "Id": "5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12",
+        "Created": "2025-12-25T00:34:38.922735976Z",
+        "Path": "docker-entrypoint.sh",
+        "Args": [
+            "node",
+            "server.js"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 17597,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-12-25T00:34:39.138678719Z",
+            "FinishedAt": "0001-01-01T00:00:00Z",
+            "Health": {
+                "Status": "healthy",
+                "FailingStreak": 0,
+                "Log": [
+                    {
+                        "Start": "2025-12-31T00:29:30.325723366Z",
+                        "End": "2025-12-31T00:29:30.377885995Z",
+                        "ExitCode": 0,
+                        "Output": "Connecting to 127.0.0.1:3000 (127.0.0.1:3000)\nremote file exists\n"
+                    },
+                    {
+                        "Start": "2025-12-31T00:29:40.378450948Z",
+                        "End": "2025-12-31T00:29:40.427801469Z",
+                        "ExitCode": 0,
+                        "Output": "Connecting to 127.0.0.1:3000 (127.0.0.1:3000)\nremote file exists\n"
+                    },
+                    {
+                        "Start": "2025-12-31T00:29:50.428606523Z",
+                        "End": "2025-12-31T00:29:50.478922069Z",
+                        "ExitCode": 0,
+                        "Output": "Connecting to 127.0.0.1:3000 (127.0.0.1:3000)\nremote file exists\n"
+                    },
+                    {
+                        "Start": "2025-12-31T00:30:00.480307326Z",
+                        "End": "2025-12-31T00:30:00.560512617Z",
+                        "ExitCode": 0,
+                        "Output": "Connecting to 127.0.0.1:3000 (127.0.0.1:3000)\nremote file exists\n"
+                    },
+                    {
+                        "Start": "2025-12-31T00:30:10.56104112Z",
+                        "End": "2025-12-31T00:30:10.611221485Z",
+                        "ExitCode": 0,
+                        "Output": "Connecting to 127.0.0.1:3000 (127.0.0.1:3000)\nremote file exists\n"
+                    }
+                ]
+            }
+        },
+        "Image": "sha256:e0bcec13ebe334e70cf344fc00cf833418f964774f9652d533d83e4220453246",
+        "ResolvConfPath": "/var/lib/docker/containers/5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12/hostname",
+        "HostsPath": "/var/lib/docker/containers/5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12/hosts",
+        "LogPath": "/var/lib/docker/containers/5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12/5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12-json.log",
+        "Name": "/homepage",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "core_homepage_config:/app/config:rw",
+                "/var/run/docker.sock:/var/run/docker.sock:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "host",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "unless-stopped",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware",
+                "/sys/devices/system/cpu/cpu0/thermal_throttle",
+                "/sys/devices/system/cpu/cpu1/thermal_throttle",
+                "/sys/devices/system/cpu/cpu2/thermal_throttle",
+                "/sys/devices/system/cpu/cpu3/thermal_throttle"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "5d3bb04e0b8b300707f8ae0481985780a23150947180b835c024da4ad194ad12",
+                "LowerDir": "/var/lib/docker/overlay2/a8125d26397325ec829d59b5d51374f95cc24e93af092d7591397303cf988d3c-init/diff:/var/lib/docker/overlay2/5bb435d482c061e5d92eb3a7679692c2b0b9a8ce1deda1631497334bf63d48cf/diff:/var/lib/docker/overlay2/895c0b3128370f93f591082665199df44f952abda811a242c985a60c17955c53/diff:/var/lib/docker/overlay2/1e6e893be9dc8733bc6821e7938c1dd1491bae61159c86889c92c5bec5877629/diff:/var/lib/docker/overlay2/22b81b04064e624c42c7747b774ea9d03ecedf38e0d029e221293a2f3f6c918e/diff:/var/lib/docker/overlay2/578c373410175ae66563a2fb9d0bcfbdaa25780beff9dac6492d4ee814b1a3bf/diff:/var/lib/docker/overlay2/bd558754b96175eb7dfe8a45949221b606fbbab432c4b656bafb3705d4d28ebb/diff:/var/lib/docker/overlay2/066077e251bee7a0a4486d78577e747bdb7a8beb01729ff9d9f33faf18a8df77/diff:/var/lib/docker/overlay2/6ddc7a6fe62f9dc15176bf2d356cf62c45cb4790f6b47273dd8e553bd7630fcb/diff:/var/lib/docker/overlay2/4373667eaa4f2e54e4bd801bf9f5b118472af4b39a35eacf183c886f50e8a4f6/diff:/var/lib/docker/overlay2/5c201e01ff50a8d4abac077e7de58a6e4b09b00275d68993c0f96f87ee1f0fd3/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a8125d26397325ec829d59b5d51374f95cc24e93af092d7591397303cf988d3c/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a8125d26397325ec829d59b5d51374f95cc24e93af092d7591397303cf988d3c/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a8125d26397325ec829d59b5d51374f95cc24e93af092d7591397303cf988d3c/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "core_homepage_config",
+                "Source": "/var/lib/docker/volumes/core_homepage_config/_data",
+                "Destination": "/app/config",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "bind",
+                "Source": "/var/run/docker.sock",
+                "Destination": "/var/run/docker.sock",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "haven",
+            "Domainname": "",
+            "User": "root",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PGID=1000",
+                "HOMEPAGE_VAR_TITLE=Haven Homelab",
+                "HOMEPAGE_VAR_SEARCH_PROVIDER=google",
+                "HOMEPAGE_VAR_HEADER_STYLE=boxed",
+                "HOMEPAGE_VAR_HIDE_VERSION=true",
+                "PUID=1000",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NODE_VERSION=22.21.1",
+                "YARN_VERSION=1.22.22",
+                "NODE_ENV=production",
+                "HOSTNAME=::",
+                "PORT=3000"
+            ],
+            "Cmd": [
+                "node",
+                "server.js"
+            ],
+            "Healthcheck": {
+                "Test": [
+                    "CMD-SHELL",
+                    "wget --no-verbose --tries=1 --spider http://127.0.0.1:$PORT/api/healthcheck || exit 1"
+                ],
+                "Interval": 10000000000,
+                "Timeout": 3000000000,
+                "StartPeriod": 20000000000
+            },
+            "Image": "ghcr.io/gethomepage/homepage:latest",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": [
+                "docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "4a8d6ab4afee8eaa426353e1c68d5c02eff268ec6e78955f2be02c636f290cdf",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:e0bcec13ebe334e70cf344fc00cf833418f964774f9652d533d83e4220453246",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "core",
+                "com.docker.compose.project.config_files": "/home/otis/docker/core/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/otis/docker/core",
+                "com.docker.compose.replace": "homepage",
+                "com.docker.compose.service": "homepage",
+                "com.docker.compose.version": "5.0.0",
+                "org.opencontainers.image.created": "2025-12-10T16:46:01.707Z",
+                "org.opencontainers.image.description": "A highly customizable homepage (or startpage / application dashboard) with Docker and service API integrations.",
+                "org.opencontainers.image.documentation": "https://github.com/gethomepage/homepage/wiki",
+                "org.opencontainers.image.licenses": "GPL-3.0",
+                "org.opencontainers.image.revision": "1ed2f16cbf4d13a97574b7c5a58ec8aaba1902e3",
+                "org.opencontainers.image.source": "https://github.com/gethomepage/homepage",
+                "org.opencontainers.image.title": "homepage",
+                "org.opencontainers.image.url": "https://github.com/gethomepage/homepage",
+                "org.opencontainers.image.version": "v1.8.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "22ea1f2b5d52195a9e1af433aa4582766169862d3b633643e33fbbd334edbc56",
+            "SandboxKey": "/var/run/docker/netns/default",
+            "Ports": {},
+            "Networks": {
+                "host": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "ee122adbae6ed162c44d8c1258b3e197522d19b12d493bf009df4ef12c2a49dd",
+                    "EndpointID": "894a3ade482e7c37673934b7a9f07ef3a3996efdc7c06838f94c18b4488f8e17",
+                    "Gateway": "",
+                    "IPAddress": "",
+                    "MacAddress": "",
+                    "IPPrefixLen": 0,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        }
+    }
+]
