@@ -21,3 +21,4 @@ docker-compose up -d
 All services use Cloudflare DNS with Let's Encrypt SSL certificates via Nginx Proxy Manager.
 Haven IP: 192.168.4.46
 Domain: singfieldotis.com
+SSH authentication configured
