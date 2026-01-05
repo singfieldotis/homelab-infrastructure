@@ -25,7 +25,7 @@ services:
       - "8080:80/tcp"
     environment:
       TZ: 'America/New_York'
-      WEBPASSWORD: 'DukeIsGood8!3'
+      WEBPASSWORD: ${PIHOLE_PASSWORD}
     volumes:
       - pihole_data:/etc/pihole
       - pihole_dnsmasq:/etc/dnsmasq.d
@@ -99,6 +99,26 @@ services:
     networks:
       - homelab
 
+  duplicati:
+    container_name: duplicati
+    image: lscr.io/linuxserver/duplicati:latest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/New_York
+      - SETTINGS_ENCRYPTION_KEY=${DUPLICATI_ENCRYPTION_KEY}
+      - CLI_ARGS=--webservice-password=DuplicatiAdmin2026!
+    volumes:
+      - duplicati_config:/config
+      - /var/lib/docker/volumes:/source/docker_volumes:ro
+      - ~/homelab:/source/homelab_configs:ro
+      - duplicati_backups:/backups
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+    networks:
+      - homelab
+
 networks:
   homelab:
     driver: bridge
@@ -114,3 +134,5 @@ volumes:
   netdatalib:
   netdatacache:
   homepage_config:
+  duplicati_config:
+  duplicati_backups:
